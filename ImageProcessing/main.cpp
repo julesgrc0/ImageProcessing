@@ -6,7 +6,7 @@
 int main(int argc, const char *argv)
 {
 	/*
-	Bug image not work if width and height are not equal
+	Bug image not work if width and height are equal
 	*/
 	ImageGeneration img = ImageGeneration("test", {500, 500});
 	/**/
